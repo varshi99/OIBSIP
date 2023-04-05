@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./l2task3/public/intern.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body
+    background="https://www.shutterstock.com/shutterstock/photos/438834709/display_1500/stock-photo-thermometer-displaying-high-degree-hot-temperatures-in-sun-summer-day-438834709.jpg">
+    <div class="container">
+        <div class="hed" style="color: #117bec; ">Temperature converter</div>
+
+        <div class="boxcontainer">
+            <div class="box1">
+                <p>Degree</p>
+                <input type="number" class="takval" />
+            </div>
+            <div class="box1">
+                <p>Type</p>
+                <select name="" id="unit">   
+                     <option value="Fahrenheit" style="color: rgb(32, 65, 214);">Fahrenheit</option>
+                     <option value="Celsius"style="color: black;">Celsius</option>  
+                </select>
+            </div>
+        </div>
+        <button onclick="temprature()" class="button">Convert</button>
+        <div class="valuecontainer">
+            <p>Result</p>
+            <div class="value"></div>
+        </div>
+       
+    </div>
+</body>
+<script src="temp.js"></script>
+
+</html>
